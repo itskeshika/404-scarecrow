@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Inconsolata:wght@300;400&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Inconsolata:wght@300;400&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&family=Space+Mono&display=swap');
+
+#heading{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+}
+
+h3{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    color: #333333;
+}
+
+p{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+footer{
+
+    text-align: center;
+}
+
+button{
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    color: white;
+}
+
+#align-row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image{
+    height: 435px;
+    width: 435px;
+}
