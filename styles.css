@@ -7,6 +7,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #333333;
+    padding: 25px;
 }
 
 h3{
@@ -36,54 +37,53 @@ button{
     color: white;
     position: absolute;
     top: 663px;
-    left: 740px;
-}
-
-#align-row{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    left: 815px;
 }
 
 .image{
     position: absolute;
-    top: 163px;
+    top: 175px;
 }
 
 
 .text{
-    position: absolute;
-    top: 200px;
-    width:45%;
-    left: 740px;
+   float: right;
+   width: 40%;
+   margin-top: 75px;
 }
 
-@media (max-width:600px){
+@media screen and (min-width:375px) and (max-width:900px){
+
 
     #heading{
         height: 25px;
         width: 175px;
-        position: absolute;
-        top: 20px;
-        left: 24px;  
+    }
+
+    #align-row{
+        display: flex;
+        flex-direction: column;
     }
 
     img{
         width: 286.83px;
-        height: 220.35px;
-       position: absolute;
-       top: 11.49%;
-       bottom: 63.44%;
-       left: 11.73%;
-       right: 11.78%;
+        height: 220.35px;   
     }
+
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     h3{
         height: 142px;
         width: 350px;
         position: absolute;
-        top:407px;
-        left:24px;
-        font-size: 54px;
+        top: 379px;
+        left: 23px;
+        font-size: 44px;
     }
 
     p{
@@ -92,22 +92,23 @@ button{
         position: absolute;
         top:579px;
         left: 23px;
+        text-align: center;
     }
 
     button{
         width: 216px;
         height: 68px;
-        left: 24px;
-        top: 726px;
+        left: 73px;
+        top: 800px;
         position: absolute;
     }
 
-    h5{
-        width: 287px;
+    footer{
+        width:287px;
         height: 17px;
-        position: absolute;
-        top: 908px;
+        top:908px;
         left: 46px;
     }
+
 }
 
