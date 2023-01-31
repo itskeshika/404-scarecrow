@@ -67,13 +67,12 @@ button{
 
     img{
         width: 286.83px;
-        height: 220.35px;   
+        height: 234.35px;   
     }
 
     .image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        margin: 0 auto;
     }
 
 
@@ -91,14 +90,12 @@ button{
         height: 81px;
         position: absolute;
         top:579px;
-        left: 23px;
-        text-align: center;
-    }
+        left: 23px;}
 
     button{
         width: 216px;
         height: 68px;
-        left: 73px;
+        left: 24px;
         top: 800px;
         position: absolute;
     }
