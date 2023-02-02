@@ -13,66 +13,56 @@
     --spacemono-font: 'Space Mono', monospace;
     --montserrat-font: 'Montserrat', sans-serif;
 }
-#heading {
+.logo{
     font-size: 24px;
     padding: 25px;
     font-weight: bolder;
     font-family: var(--inconsolata-font);
     color:var(--main-color);
 }
-h3 {
+.main{
+    margin-top: 75px;
+}
+.container {
+    float: right;
+    width: 50%;
+    padding: 25px;
+}
+.image{
+    float: left;
+}
+.bad-news {
     font-weight: 700;
     font-size: 64px;
     font-family: var(--spacemono-font);
     color: var(--main-color);
 }
-p {
+.description {
     font-weight: 400;
     font-size: 24px;
-    width: 45%;
+    /* width: 45%; */
     font-family: var(--spacemono-font);
 }
-footer h5{
-    text-align: center;
-    font-family: var(--montserrat-font);
-    color:var(--gray-color);
-    padding: 20px;
-    margin-top: 700px;   
-}
+
 button {
     width: 216px;
     height: 68px;
+    margin-top: 4rem;
     color: var(--white-color);
     background: var(--main-color);
-    margin-top: 4rem;
 }
-.header {
-    float: right;
-    width: 50%;
-    margin-top: 75px;
-    padding: 25px;
-}
-
-img{
-    float: left;
-    margin-top: 75px;
-}
-@media screen and (max-width:1094px) {
-    #heading{
-        padding: 30px;
-    }
-    main{
-        display: flex;
-        flex-direction: row;
-    }
-
-    footer h5{
-        margin-top: 106px;
-        text-align: center;
-    }
+.creator{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 39%;
+    right: 39%;
+    font-family: var(--montserrat-font);
+    color:var(--gray-color);
 }
 @media screen and(max-width: 768px){
-    main{
+    .container{
+        display: flex;
         flex-direction: column;
     }
 }                           
