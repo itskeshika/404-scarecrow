@@ -22,14 +22,12 @@
 }
 .main{
     margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 145px;
 }
-.container {
-    float: right;
-    width: 50%;
-    padding: 25px;
-}
-.image{
-    float: left;
+.container{
+    width:45%;
 }
 .bad-news {
     font-weight: 700;
@@ -43,7 +41,6 @@
     /* width: 45%; */
     font-family: var(--spacemono-font);
 }
-
 button {
     width: 216px;
     height: 68px;
@@ -53,18 +50,10 @@ button {
 }
 .creator{
     padding: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 39%;
-    right: 39%;
+    text-align: center;
     font-family: var(--montserrat-font);
     color:var(--gray-color);
 }
-@media screen and(max-width: 768px){
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-}                           
+                     
 
     
